@@ -8,7 +8,7 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        <div class="container">
+        <div class="container py-5">
             <div class="row gap-3 justify-content-center">
                 @foreach ($movies as $movie)
                 <div class="col-12 col-lg-3">
